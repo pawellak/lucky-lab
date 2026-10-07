@@ -1,0 +1,11 @@
+name: shared
+description: Pure-Dart models and utilities shared across Lucky Lab packages.
+publish_to: none
+version: 0.1.0
+resolution: workspace
+
+environment:
+  sdk: ^3.12.0
+
+dev_dependencies:
+  test: any

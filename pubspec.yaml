@@ -1,0 +1,28 @@
+name: lucky_lab_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.12.0
+
+workspace:
+  - app
+  - packages/core/ble_core
+  - packages/core/design_system
+  - packages/core/shared
+  - packages/features/feature_scanner
+  - packages/features/feature_sensor
+  - packages/features/feature_ota
+  - packages/features/feature_smart_lock
+  - packages/features/feature_reverse_eng
+  - packages/features/feature_gateway
+  - packages/features/feature_plugin_lab
+  - packages/features/feature_advanced
+  - packages/features/feature_offline_sync
+  - packages/features/feature_ai_assistant
+  - packages/features/feature_security
+  - packages/features/feature_platform_extensions
+  - packages/features/feature_release
+  - packages/features/feature_matter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0

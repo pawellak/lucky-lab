@@ -1,0 +1,8 @@
+name: ble_core
+description: Lucky Lab's own abstraction over the underlying BLE library.
+publish_to: none
+version: 0.1.0
+resolution: workspace
+
+environment:
+  sdk: ^3.12.0

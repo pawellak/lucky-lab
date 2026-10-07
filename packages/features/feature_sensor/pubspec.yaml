@@ -1,0 +1,15 @@
+name: feature_sensor
+description: "Chapter 2: Sensor + Custom GATT"
+publish_to: none
+version: 0.1.0
+resolution: workspace
+
+environment:
+  sdk: ^3.12.0
+  flutter: ">=3.44.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  design_system: any
+  shared: any
