@@ -3,7 +3,7 @@ import 'package:shared/shared.dart';
 const smartLockChapter = ChapterInfo(
   number: 4,
   slug: 'smart-lock',
-  track: ChapterTrack.bleIot,
+  tier: ChapterTier.core,
   title: 'Proximity Smart Lock',
   summary:
       'A lock / gate opener that unlocks automatically when you walk up to it.',
@@ -13,5 +13,6 @@ const smartLockChapter = ChapterInfo(
     'Custom challenge-response authentication',
     'iOS and Android background behaviour',
   ],
+  bonusGoals: ['Driving a relay / door strike safely from the MCU'],
   needsHardware: true,
 );

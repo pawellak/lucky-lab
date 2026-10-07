@@ -1,34 +1,41 @@
 # Lucky Lab
 
 **by Paweł Lak.** A Flutter app documenting my path from Flutter developer to
-**mobile & connected-devices engineer**: 14 hands-on chapters, from BLE advertising
-packets to firmware, security and shipping to the stores. Each chapter is a separate
-feature package with its own learning notes. Chapters that need hardware come with
-the matching ESP32 / nRF firmware in this repository.
+**mobile & connected-devices engineer**: 13 hands-on chapters, from BLE advertising
+packets to my own energy meter, firmware, edge AI and shipping to the stores. Each
+chapter is a separate feature package with its own learning notes. Chapters that need
+hardware come with the matching ESP32 / nRF firmware in this repository.
 
-### BLE & IoT
+The chapters are grouped by priority and listed in the recommended learning order.
+Chapter numbers stay fixed, so the order within a group is not always numeric.
+
+### Core: what BLE job offers ask for
 
 | # | Chapter | Key topics | Status |
 |---|---------|------------|--------|
 | 1 | [BLE Scanner & Analyzer](packages/features/feature_scanner) | GAP, advertising format, byte parsing, Android scan limits | Not started |
-| 2 | [Sensor + Custom GATT](packages/features/feature_sensor) | GATT design, operation queue, MTU, reconnection | Not started |
+| 7 | [Native Flutter Plugin](packages/features/feature_plugin_lab) | Chapter 1's scanner in Kotlin + Swift, Pigeon, coroutines / Flow, KMP | Not started |
+| 2 | [Energy Meter + Custom GATT](packages/features/feature_energy_meter) | First firmware, GATT design, operation queue, MTU, reconnection | Not started |
 | 3 | [OTA Firmware Update](packages/features/feature_ota) | Throughput, DLE, 2M PHY, flow control, MCUboot + SMP | Not started |
 | 4 | [Proximity Smart Lock](packages/features/feature_smart_lock) | Bonding, LE Secure Connections, challenge-response, background | Not started |
-| 5 | [Reverse Engineering](packages/features/feature_reverse_eng) | nRF Sniffer, Wireshark, HCI snoop logs | Not started |
-| 6 | [BLE → MQTT Gateway](packages/features/feature_gateway) | Central role on MCU, passive scanning, many connections | Not started |
-| 7 | [Native Flutter Plugin](packages/features/feature_plugin_lab) | CoreBluetooth, android.bluetooth, Pigeon, Kotlin Multiplatform | Not started |
-| 8 | [Bluetooth 5.x / 6.0](packages/features/feature_advanced) | Mesh, direction finding, Channel Sounding, LE Audio | Not started |
-| 14 | [Matter & Thread](packages/features/feature_matter) | BLE commissioning, clusters, Thread, esp-matter | Not started |
 
-### Production skills
+### Differentiators: what makes you stand out
 
 | # | Chapter | Key topics | Status |
 |---|---------|------------|--------|
+| 5 | [Reverse Engineering](packages/features/feature_reverse_eng) | nRF Sniffer, Wireshark, HCI snoop logs, UART / SWD | Not started |
+| 10 | [Edge AI](packages/features/feature_edge_ai) | On-device anomaly detection (LiteRT), TinyML, LLM tool calling | Not started |
+| 13 | [Release & Observability](packages/features/feature_release) | Flavors, Fastlane CI/CD, crash reporting, hardware-in-the-loop tests | Not started |
+
+### Optional
+
+| # | Chapter | Key topics | Status |
+|---|---------|------------|--------|
+| 6 | [BLE → MQTT Gateway](packages/features/feature_gateway) | Central role on MCU, passive scanning, many connections | Not started |
 | 9 | [Offline-First Sync](packages/features/feature_offline_sync) | Drift, sync queue, conflict resolution, background sync | Not started |
-| 10 | [AI Device Assistant](packages/features/feature_ai_assistant) | LLM tool calling, MCP, on-device ML | Not started |
 | 11 | [Mobile Security](packages/features/feature_security) | OWASP MASVS, secure storage, pinning, obfuscation | Not started |
 | 12 | [Widgets, Watch & Live Activities](packages/features/feature_platform_extensions) | WidgetKit, Glance, ActivityKit, Wear OS / watchOS | Not started |
-| 13 | [Release & Observability](packages/features/feature_release) | Flavors, Fastlane CI/CD, crash reporting, hardware-in-the-loop tests | Not started |
+| 8 | [Smart Home & Bluetooth 6.0](packages/features/feature_smart_home) | Matter, Thread, Mesh, direction finding, Channel Sounding, LE Audio | Not started |
 
 ## Architecture
 

@@ -3,7 +3,7 @@ import 'package:shared/shared.dart';
 const securityChapter = ChapterInfo(
   number: 11,
   slug: 'security',
-  track: ChapterTrack.production,
+  tier: ChapterTier.optional,
   title: 'Mobile Security',
   summary:
       'Harden the app against OWASP MASVS: secure storage, certificate pinning, obfuscation and tamper checks.',

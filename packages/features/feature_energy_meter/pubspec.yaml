@@ -1,5 +1,5 @@
-name: feature_matter
-description: "Chapter 14: Matter & Thread"
+name: feature_energy_meter
+description: "Chapter 2: Energy Meter + Custom GATT"
 publish_to: none
 version: 0.1.0
 resolution: workspace

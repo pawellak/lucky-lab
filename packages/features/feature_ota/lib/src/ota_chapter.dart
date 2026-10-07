@@ -3,10 +3,10 @@ import 'package:shared/shared.dart';
 const otaChapter = ChapterInfo(
   number: 3,
   slug: 'ota',
-  track: ChapterTrack.bleIot,
+  tier: ChapterTier.core,
   title: 'OTA Firmware Update',
   summary:
-      'Update the chapter 2 device\'s firmware over BLE using MCUboot and the SMP protocol.',
+      'Update the energy meter\'s firmware over BLE using MCUboot and the SMP protocol.',
   learningGoals: [
     'Throughput: MTU, Data Length Extension, 2M PHY',
     'Write without response and flow control',

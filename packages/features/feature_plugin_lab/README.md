@@ -1,11 +1,12 @@
 # Chapter 7 – Native Flutter Plugin
 
-Your own Flutter plugin in Kotlin + Swift, e.g. peripheral mode or L2CAP channels.
+Re-implement chapter 1's scanner natively in Kotlin and Swift as your own Flutter plugin, then add peripheral mode or L2CAP.
 
 ## Learning goals
 
-- CoreBluetooth in depth
+- Kotlin, coroutines and Flow
 - android.bluetooth in depth
+- CoreBluetooth in depth
 - Platform channels / Pigeon
 - Peripheral role or L2CAP CoC
 - Shared native core in Kotlin Multiplatform (KMP)

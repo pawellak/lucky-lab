@@ -3,13 +3,14 @@ import 'package:shared/shared.dart';
 const pluginLabChapter = ChapterInfo(
   number: 7,
   slug: 'plugin-lab',
-  track: ChapterTrack.bleIot,
+  tier: ChapterTier.core,
   title: 'Native Flutter Plugin',
   summary:
-      'Your own Flutter plugin in Kotlin + Swift, e.g. peripheral mode or L2CAP channels.',
+      'Re-implement chapter 1\'s scanner natively in Kotlin and Swift as your own Flutter plugin, then add peripheral mode or L2CAP.',
   learningGoals: [
-    'CoreBluetooth in depth',
+    'Kotlin, coroutines and Flow',
     'android.bluetooth in depth',
+    'CoreBluetooth in depth',
     'Platform channels / Pigeon',
     'Peripheral role or L2CAP CoC',
     'Shared native core in Kotlin Multiplatform (KMP)',

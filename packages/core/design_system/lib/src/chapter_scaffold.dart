@@ -59,6 +59,18 @@ class _ChapterOverview extends StatelessWidget {
             leading: const Icon(Icons.check_circle_outline),
             title: Text(goal),
           ),
+        if (info.bonusGoals.isNotEmpty) ...[
+          const SizedBox(height: 16),
+          Text('Bonus', style: theme.textTheme.titleMedium),
+          const SizedBox(height: 8),
+          for (final goal in info.bonusGoals)
+            ListTile(
+              contentPadding: EdgeInsets.zero,
+              dense: true,
+              leading: const Icon(Icons.star_outline),
+              title: Text(goal),
+            ),
+        ],
       ],
     );
   }

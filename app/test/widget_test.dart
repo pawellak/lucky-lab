@@ -6,14 +6,17 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  test('chapters are numbered 1..14 with unique slugs', () {
+  test('chapters are numbered 1..13 with unique slugs', () {
     final container = ProviderContainer();
     addTearDown(container.dispose);
 
     final chapters = container.read(chaptersProvider);
 
-    expect(chapters.map((c) => c.info.number), List.generate(14, (i) => i + 1));
-    expect(chapters.map((c) => c.info.slug).toSet(), hasLength(14));
+    expect(
+      chapters.map((c) => c.info.number).toList()..sort(),
+      List.generate(13, (i) => i + 1),
+    );
+    expect(chapters.map((c) => c.info.slug).toSet(), hasLength(13));
   });
 
   testWidgets('dashboard opens a chapter and goes back', (tester) async {

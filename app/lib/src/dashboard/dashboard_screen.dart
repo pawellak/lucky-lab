@@ -26,28 +26,47 @@ class DashboardScreen extends ConsumerWidget {
               child: _ProgressHeader(done: done, total: chapters.length),
             ),
           ),
-          for (final track in ChapterTrack.values) ...[
+          for (final tier in ChapterTier.values) ...[
             SliverPadding(
               padding: const EdgeInsets.fromLTRB(16, 24, 16, 0),
-              sliver: SliverToBoxAdapter(
-                child: Text(
-                  track.title,
-                  style: Theme.of(context).textTheme.titleLarge,
-                ),
-              ),
+              sliver: SliverToBoxAdapter(child: _TierHeader(tier: tier)),
             ),
             SliverPadding(
               padding: const EdgeInsets.all(16),
               sliver: _ChapterGrid(
                 chapters: [
                   for (final chapter in chapters)
-                    if (chapter.info.track == track) chapter,
+                    if (chapter.info.tier == tier) chapter,
                 ],
               ),
             ),
           ],
         ],
       ),
+    );
+  }
+}
+
+class _TierHeader extends StatelessWidget {
+  const _TierHeader({required this.tier});
+
+  final ChapterTier tier;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(tier.title, style: theme.textTheme.titleLarge),
+        Text(
+          tier.description,
+          style: theme.textTheme.bodySmall?.copyWith(
+            color: theme.colorScheme.onSurfaceVariant,
+          ),
+        ),
+      ],
     );
   }
 }

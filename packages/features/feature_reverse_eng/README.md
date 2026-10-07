@@ -9,6 +9,7 @@ Reverse-engineer a cheap commercial device (LED strip, Xiaomi thermometer) and c
 - Sniffing with nRF Sniffer + Wireshark
 - Android HCI snoop logs
 - Protocol analysis of unknown devices
+- Hardware side: finding UART / SWD pads and dumping firmware
 
 ## Learning notes
 

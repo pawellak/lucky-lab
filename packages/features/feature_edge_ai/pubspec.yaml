@@ -1,5 +1,5 @@
-name: feature_sensor
-description: "Chapter 2: Sensor + Custom GATT"
+name: feature_edge_ai
+description: "Chapter 10: Edge AI"
 publish_to: none
 version: 0.1.0
 resolution: workspace

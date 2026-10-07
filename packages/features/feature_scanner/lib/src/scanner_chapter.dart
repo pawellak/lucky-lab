@@ -3,7 +3,7 @@ import 'package:shared/shared.dart';
 const scannerChapter = ChapterInfo(
   number: 1,
   slug: 'scanner',
-  track: ChapterTrack.bleIot,
+  tier: ChapterTier.core,
   title: 'BLE Scanner & Analyzer',
   summary:
       'Scan nearby devices and decode iBeacon, Eddystone and manufacturer data, with a live RSSI chart and filters.',

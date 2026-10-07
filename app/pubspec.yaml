@@ -14,19 +14,18 @@ dependencies:
   design_system: any
   shared: any
   feature_scanner: any
-  feature_sensor: any
+  feature_energy_meter: any
   feature_ota: any
   feature_smart_lock: any
-  feature_reverse_eng: any
-  feature_gateway: any
   feature_plugin_lab: any
-  feature_advanced: any
+  feature_reverse_eng: any
+  feature_edge_ai: any
+  feature_release: any
+  feature_gateway: any
   feature_offline_sync: any
-  feature_ai_assistant: any
   feature_security: any
   feature_platform_extensions: any
-  feature_release: any
-  feature_matter: any
+  feature_smart_home: any
   flutter_riverpod: ^3.4.3
   go_router: ^18.0.2
 

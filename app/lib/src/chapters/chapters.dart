@@ -1,7 +1,6 @@
-import 'package:feature_advanced/feature_advanced.dart';
-import 'package:feature_ai_assistant/feature_ai_assistant.dart';
+import 'package:feature_edge_ai/feature_edge_ai.dart';
+import 'package:feature_energy_meter/feature_energy_meter.dart';
 import 'package:feature_gateway/feature_gateway.dart';
-import 'package:feature_matter/feature_matter.dart';
 import 'package:feature_offline_sync/feature_offline_sync.dart';
 import 'package:feature_ota/feature_ota.dart';
 import 'package:feature_platform_extensions/feature_platform_extensions.dart';
@@ -10,7 +9,7 @@ import 'package:feature_release/feature_release.dart';
 import 'package:feature_reverse_eng/feature_reverse_eng.dart';
 import 'package:feature_scanner/feature_scanner.dart';
 import 'package:feature_security/feature_security.dart';
-import 'package:feature_sensor/feature_sensor.dart';
+import 'package:feature_smart_home/feature_smart_home.dart';
 import 'package:feature_smart_lock/feature_smart_lock.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -32,18 +31,25 @@ class AppChapter {
   final WidgetBuilder builder;
 }
 
+/// All chapters in recommended learning order. The dashboard groups them
+/// by [ChapterInfo.tier] and keeps this order within each tier.
 final chaptersProvider = Provider<List<AppChapter>>(
   (ref) => [
-    // BLE & IoT
+    // Core
     AppChapter(
       info: scannerChapter,
       icon: Icons.radar,
       builder: (_) => const ScannerScreen(),
     ),
     AppChapter(
-      info: sensorChapter,
-      icon: Icons.thermostat,
-      builder: (_) => const SensorScreen(),
+      info: pluginLabChapter,
+      icon: Icons.extension,
+      builder: (_) => const PluginLabScreen(),
+    ),
+    AppChapter(
+      info: energyMeterChapter,
+      icon: Icons.bolt,
+      builder: (_) => const EnergyMeterScreen(),
     ),
     AppChapter(
       info: otaChapter,
@@ -55,36 +61,32 @@ final chaptersProvider = Provider<List<AppChapter>>(
       icon: Icons.lock_open,
       builder: (_) => const SmartLockScreen(),
     ),
+    // Differentiators
     AppChapter(
       info: reverseEngChapter,
       icon: Icons.manage_search,
       builder: (_) => const ReverseEngScreen(),
     ),
     AppChapter(
+      info: edgeAiChapter,
+      icon: Icons.psychology,
+      builder: (_) => const EdgeAiScreen(),
+    ),
+    AppChapter(
+      info: releaseChapter,
+      icon: Icons.rocket_launch,
+      builder: (_) => const ReleaseScreen(),
+    ),
+    // Optional
+    AppChapter(
       info: gatewayChapter,
       icon: Icons.router,
       builder: (_) => const GatewayScreen(),
     ),
     AppChapter(
-      info: pluginLabChapter,
-      icon: Icons.extension,
-      builder: (_) => const PluginLabScreen(),
-    ),
-    AppChapter(
-      info: advancedChapter,
-      icon: Icons.auto_awesome,
-      builder: (_) => const AdvancedScreen(),
-    ),
-    // Production skills
-    AppChapter(
       info: offlineSyncChapter,
       icon: Icons.cloud_sync,
       builder: (_) => const OfflineSyncScreen(),
-    ),
-    AppChapter(
-      info: aiAssistantChapter,
-      icon: Icons.smart_toy,
-      builder: (_) => const AiAssistantScreen(),
     ),
     AppChapter(
       info: securityChapter,
@@ -97,15 +99,9 @@ final chaptersProvider = Provider<List<AppChapter>>(
       builder: (_) => const PlatformExtensionsScreen(),
     ),
     AppChapter(
-      info: releaseChapter,
-      icon: Icons.rocket_launch,
-      builder: (_) => const ReleaseScreen(),
-    ),
-    // BLE & IoT, added later
-    AppChapter(
-      info: matterChapter,
+      info: smartHomeChapter,
       icon: Icons.home_work,
-      builder: (_) => const MatterScreen(),
+      builder: (_) => const SmartHomeScreen(),
     ),
   ],
 );

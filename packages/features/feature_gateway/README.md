@@ -1,6 +1,6 @@
 # Chapter 6 – BLE → MQTT Gateway
 
-An ESP32 gateway that bridges many BLE devices to Wi-Fi / MQTT at once.
+An ESP32 gateway that collects data from many energy meters over BLE and publishes it over Wi-Fi / MQTT.
 
 **Needs hardware:** yes
 

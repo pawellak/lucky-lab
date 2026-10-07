@@ -1,11 +1,13 @@
-# Chapter 8 – Bluetooth 5.x / 6.0
+# Chapter 8 – Smart Home & Bluetooth 6.0
 
-Advanced topics: BLE Mesh lights, direction finding, Channel Sounding and LE Audio.
+Matter and Thread smart-home devices, plus the newest Bluetooth features: Mesh, direction finding, Channel Sounding and LE Audio.
 
 **Needs hardware:** yes
 
 ## Learning goals
 
+- Matter: data model and BLE commissioning
+- Thread networking and esp-matter
 - BLE Mesh
 - Direction finding (AoA / AoD)
 - Channel Sounding (Bluetooth 6.0)

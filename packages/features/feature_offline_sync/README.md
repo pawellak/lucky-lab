@@ -1,6 +1,6 @@
 # Chapter 9 – Offline-First Sync
 
-Store device readings locally and sync them with a backend, so the app keeps working with no network.
+Store energy readings locally and sync them with a backend, so the app keeps working with no network.
 
 ## Learning goals
 

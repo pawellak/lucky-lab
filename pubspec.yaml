@@ -10,19 +10,18 @@ workspace:
   - packages/core/design_system
   - packages/core/shared
   - packages/features/feature_scanner
-  - packages/features/feature_sensor
+  - packages/features/feature_energy_meter
   - packages/features/feature_ota
   - packages/features/feature_smart_lock
-  - packages/features/feature_reverse_eng
-  - packages/features/feature_gateway
   - packages/features/feature_plugin_lab
-  - packages/features/feature_advanced
+  - packages/features/feature_reverse_eng
+  - packages/features/feature_edge_ai
+  - packages/features/feature_release
+  - packages/features/feature_gateway
   - packages/features/feature_offline_sync
-  - packages/features/feature_ai_assistant
   - packages/features/feature_security
   - packages/features/feature_platform_extensions
-  - packages/features/feature_release
-  - packages/features/feature_matter
+  - packages/features/feature_smart_home
 
 dev_dependencies:
   flutter_lints: ^6.0.0

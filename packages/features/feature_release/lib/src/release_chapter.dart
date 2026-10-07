@@ -3,7 +3,7 @@ import 'package:shared/shared.dart';
 const releaseChapter = ChapterInfo(
   number: 13,
   slug: 'release',
-  track: ChapterTrack.production,
+  tier: ChapterTier.differentiator,
   title: 'Release & Observability',
   summary:
       'Ship like a product team: flavors, CI/CD to the stores, crash reporting, monitoring and tests against real hardware.',

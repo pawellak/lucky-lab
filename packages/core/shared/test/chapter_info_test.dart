@@ -6,7 +6,7 @@ void main() {
     const info = ChapterInfo(
       number: 1,
       slug: 'test',
-      track: ChapterTrack.bleIot,
+      tier: ChapterTier.core,
       title: 'Test',
       summary: 'Summary',
       learningGoals: [],

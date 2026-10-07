@@ -3,10 +3,10 @@ import 'package:shared/shared.dart';
 const gatewayChapter = ChapterInfo(
   number: 6,
   slug: 'gateway',
-  track: ChapterTrack.bleIot,
+  tier: ChapterTier.optional,
   title: 'BLE → MQTT Gateway',
   summary:
-      'An ESP32 gateway that bridges many BLE devices to Wi-Fi / MQTT at once.',
+      'An ESP32 gateway that collects data from many energy meters over BLE and publishes it over Wi-Fi / MQTT.',
   learningGoals: [
     'Central role on a microcontroller',
     'Passive scanning',
