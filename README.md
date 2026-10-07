@@ -12,8 +12,8 @@ The chapters are grouped by priority and numbered in the recommended learning or
 
 | # | Chapter | Key topics | Status |
 |---|---------|------------|--------|
-| 1 | [BLE Scanner & Analyzer](packages/features/feature_scanner) | GAP, advertising format, byte parsing, Android scan limits | Not started |
-| 2 | [Native Flutter Plugin](packages/features/feature_plugin_lab) | Chapter 1's scanner in Kotlin + Swift, Pigeon, coroutines / Flow, KMP | Not started |
+| 1 | [BLE Scanner & Analyzer](packages/features/feature_scanner) | GAP, advertising format, byte parsing, Android scan limits | In progress |
+| 2 | [Native Flutter Plugin](packages/features/feature_plugin_lab) | Chapter 1's scanner in Kotlin + Swift, Pigeon, coroutines / Flow, KMP, Jetpack Compose, pub.dev | Not started |
 | 3 | [Energy Meter + Custom GATT](packages/features/feature_energy_meter) | First firmware, GATT design, operation queue, MTU, reconnection | Not started |
 | 4 | [OTA Firmware Update](packages/features/feature_ota) | Throughput, DLE, 2M PHY, flow control, MCUboot + SMP | Not started |
 | 5 | [Proximity Smart Lock](packages/features/feature_smart_lock) | Bonding, LE Secure Connections, challenge-response, background | Not started |
@@ -72,8 +72,17 @@ flutter pub get            # once, from the repository root
 cd app && flutter run      # BLE needs a physical Android or iOS device
 ```
 
+No phone at hand, or on the iOS simulator (which has no Bluetooth)? Run with demo
+devices instead of the real Bluetooth stack:
+
+```sh
+cd app && flutter run --dart-define=FAKE_BLE=true
+```
+
 ```sh
 flutter analyze app packages
 (cd app && flutter test)
 (cd packages/core/shared && dart test)
+(cd packages/core/ble_core && flutter test)
+(cd packages/features/feature_scanner && flutter test)
 ```

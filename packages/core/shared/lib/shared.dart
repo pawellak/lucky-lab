@@ -5,3 +5,5 @@
 library;
 
 export 'src/chapter_info.dart';
+export 'src/hex.dart';
+export 'src/power.dart';

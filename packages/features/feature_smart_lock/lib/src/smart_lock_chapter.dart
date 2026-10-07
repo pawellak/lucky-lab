@@ -10,6 +10,7 @@ const smartLockChapter = ChapterInfo(
   learningGoals: [
     'Bonding and pairing',
     'LE Secure Connections',
+    'Privacy: RPAs, IRK and resolving lists',
     'Custom challenge-response authentication',
     'iOS and Android background behaviour',
   ],

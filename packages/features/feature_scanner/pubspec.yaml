@@ -13,3 +13,8 @@ dependencies:
     sdk: flutter
   design_system: any
   shared: any
+  ble_core: any
+  flutter_riverpod: ^3.4.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

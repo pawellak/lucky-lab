@@ -7,6 +7,7 @@ Build your own BLE power meter (INA226 on ESP32 / nRF) with a custom GATT servic
 ## Learning goals
 
 - GATT service and characteristic design
+- Choosing an address type: static vs RPA
 - Operation queue for GATT requests
 - MTU negotiation
 - Reconnection state machine

@@ -8,6 +8,7 @@ A lock / gate opener that unlocks automatically when you walk up to it.
 
 - Bonding and pairing
 - LE Secure Connections
+- Privacy: RPAs, IRK and resolving lists
 - Custom challenge-response authentication
 - iOS and Android background behaviour
 
