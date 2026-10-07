@@ -14,5 +14,7 @@ const pluginLabChapter = ChapterInfo(
     'Platform channels / Pigeon',
     'Peripheral role or L2CAP CoC',
     'Shared native core in Kotlin Multiplatform (KMP)',
+    'Small native Android app in Jetpack Compose on the same Kotlin BLE core',
+    'Publishing the plugin on pub.dev',
   ],
 );

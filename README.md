@@ -13,7 +13,7 @@ The chapters are grouped by priority and numbered in the recommended learning or
 | # | Chapter | Key topics | Status |
 |---|---------|------------|--------|
 | 1 | [BLE Scanner & Analyzer](packages/features/feature_scanner) | GAP, advertising format, byte parsing, Android scan limits | Not started |
-| 2 | [Native Flutter Plugin](packages/features/feature_plugin_lab) | Chapter 1's scanner in Kotlin + Swift, Pigeon, coroutines / Flow, KMP | Not started |
+| 2 | [Native Flutter Plugin](packages/features/feature_plugin_lab) | Chapter 1's scanner in Kotlin + Swift, Pigeon, coroutines / Flow, KMP, Jetpack Compose, pub.dev | Not started |
 | 3 | [Energy Meter + Custom GATT](packages/features/feature_energy_meter) | First firmware, GATT design, operation queue, MTU, reconnection | Not started |
 | 4 | [OTA Firmware Update](packages/features/feature_ota) | Throughput, DLE, 2M PHY, flow control, MCUboot + SMP | Not started |
 | 5 | [Proximity Smart Lock](packages/features/feature_smart_lock) | Bonding, LE Secure Connections, challenge-response, background | Not started |

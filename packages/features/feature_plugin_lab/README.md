@@ -10,6 +10,8 @@ Re-implement chapter 1's scanner natively in Kotlin and Swift as your own Flutte
 - Platform channels / Pigeon
 - Peripheral role or L2CAP CoC
 - Shared native core in Kotlin Multiplatform (KMP)
+- Small native Android app in Jetpack Compose on the same Kotlin BLE core
+- Publishing the plugin on pub.dev
 
 ## Learning notes
 
