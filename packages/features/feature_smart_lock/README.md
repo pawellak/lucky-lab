@@ -1,4 +1,4 @@
-# Chapter 4 – Proximity Smart Lock
+# Chapter 5 – Proximity Smart Lock
 
 A lock / gate opener that unlocks automatically when you walk up to it.
 

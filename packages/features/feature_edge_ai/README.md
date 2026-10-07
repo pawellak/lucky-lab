@@ -1,4 +1,4 @@
-# Chapter 10 – Edge AI
+# Chapter 7 – Edge AI
 
 Detect unusual power draw on the device from energy meter data, plus an LLM assistant that explains it.
 

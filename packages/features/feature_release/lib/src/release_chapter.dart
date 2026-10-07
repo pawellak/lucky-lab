@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 
 const releaseChapter = ChapterInfo(
-  number: 13,
+  number: 8,
   slug: 'release',
   tier: ChapterTier.differentiator,
   title: 'Release & Observability',

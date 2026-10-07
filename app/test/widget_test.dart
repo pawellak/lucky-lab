@@ -32,7 +32,7 @@ void main() {
     await tester.tap(find.text('Proximity Smart Lock'));
     await tester.pumpAndSettle();
 
-    expect(find.text('4. Proximity Smart Lock'), findsOneWidget);
+    expect(find.text('5. Proximity Smart Lock'), findsOneWidget);
     expect(find.text('LE Secure Connections'), findsOneWidget);
 
     await tester.tap(find.byType(BackButton));

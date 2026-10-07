@@ -1,5 +1,5 @@
 name: feature_offline_sync
-description: "Chapter 9: Offline-First Sync"
+description: "Chapter 10: Offline-First Sync"
 publish_to: none
 version: 0.1.0
 resolution: workspace

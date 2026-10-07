@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 
 const energyMeterChapter = ChapterInfo(
-  number: 2,
+  number: 3,
   slug: 'energy-meter',
   tier: ChapterTier.core,
   title: 'Energy Meter + Custom GATT',

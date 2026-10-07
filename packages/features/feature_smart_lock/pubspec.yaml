@@ -1,5 +1,5 @@
 name: feature_smart_lock
-description: "Chapter 4: Proximity Smart Lock"
+description: "Chapter 5: Proximity Smart Lock"
 publish_to: none
 version: 0.1.0
 resolution: workspace

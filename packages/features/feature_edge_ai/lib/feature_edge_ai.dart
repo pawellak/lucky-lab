@@ -1,4 +1,4 @@
-/// Chapter 10: Edge AI.
+/// Chapter 7: Edge AI.
 library;
 
 export 'src/edge_ai_chapter.dart';

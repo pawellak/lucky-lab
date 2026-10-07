@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 
 const reverseEngChapter = ChapterInfo(
-  number: 5,
+  number: 6,
   slug: 'reverse-engineering',
   tier: ChapterTier.differentiator,
   title: 'Reverse Engineering',

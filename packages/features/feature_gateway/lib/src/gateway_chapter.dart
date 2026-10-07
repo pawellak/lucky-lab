@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 
 const gatewayChapter = ChapterInfo(
-  number: 6,
+  number: 9,
   slug: 'gateway',
   tier: ChapterTier.optional,
   title: 'BLE → MQTT Gateway',

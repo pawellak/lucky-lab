@@ -1,4 +1,4 @@
-# Chapter 7 – Native Flutter Plugin
+# Chapter 2 – Native Flutter Plugin
 
 Re-implement chapter 1's scanner natively in Kotlin and Swift as your own Flutter plugin, then add peripheral mode or L2CAP.
 

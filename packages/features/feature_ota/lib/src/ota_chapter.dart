@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 
 const otaChapter = ChapterInfo(
-  number: 3,
+  number: 4,
   slug: 'ota',
   tier: ChapterTier.core,
   title: 'OTA Firmware Update',

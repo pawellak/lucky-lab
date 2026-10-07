@@ -1,4 +1,4 @@
-# Chapter 5 – Reverse Engineering
+# Chapter 6 – Reverse Engineering
 
 Reverse-engineer a cheap commercial device (LED strip, Xiaomi thermometer) and control it from this app.
 

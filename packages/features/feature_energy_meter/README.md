@@ -1,4 +1,4 @@
-# Chapter 2 – Energy Meter + Custom GATT
+# Chapter 3 – Energy Meter + Custom GATT
 
 Build your own BLE power meter (INA226 on ESP32 / nRF) with a custom GATT service, live notifications and settings over write.
 

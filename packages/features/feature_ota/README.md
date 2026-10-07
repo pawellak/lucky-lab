@@ -1,4 +1,4 @@
-# Chapter 3 – OTA Firmware Update
+# Chapter 4 – OTA Firmware Update
 
 Update the energy meter's firmware over BLE using MCUboot and the SMP protocol.
 

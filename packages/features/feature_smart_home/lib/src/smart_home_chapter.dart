@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 
 const smartHomeChapter = ChapterInfo(
-  number: 8,
+  number: 13,
   slug: 'smart-home',
   tier: ChapterTier.optional,
   title: 'Smart Home & Bluetooth 6.0',

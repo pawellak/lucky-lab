@@ -1,4 +1,4 @@
-/// Chapter 13: Release & Observability.
+/// Chapter 8: Release & Observability.
 library;
 
 export 'src/release_chapter.dart';

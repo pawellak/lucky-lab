@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 
 const smartLockChapter = ChapterInfo(
-  number: 4,
+  number: 5,
   slug: 'smart-lock',
   tier: ChapterTier.core,
   title: 'Proximity Smart Lock',

@@ -1,5 +1,5 @@
 name: feature_gateway
-description: "Chapter 6: BLE → MQTT Gateway"
+description: "Chapter 9: BLE → MQTT Gateway"
 publish_to: none
 version: 0.1.0
 resolution: workspace

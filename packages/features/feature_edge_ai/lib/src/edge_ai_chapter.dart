@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 
 const edgeAiChapter = ChapterInfo(
-  number: 10,
+  number: 7,
   slug: 'edge-ai',
   tier: ChapterTier.differentiator,
   title: 'Edge AI',

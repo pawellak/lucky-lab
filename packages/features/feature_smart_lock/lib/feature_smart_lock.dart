@@ -1,4 +1,4 @@
-/// Chapter 4: Proximity Smart Lock.
+/// Chapter 5: Proximity Smart Lock.
 library;
 
 export 'src/smart_lock_chapter.dart';

@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 
 const offlineSyncChapter = ChapterInfo(
-  number: 9,
+  number: 10,
   slug: 'offline-sync',
   tier: ChapterTier.optional,
   title: 'Offline-First Sync',

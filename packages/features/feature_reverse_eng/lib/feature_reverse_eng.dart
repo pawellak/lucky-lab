@@ -1,4 +1,4 @@
-/// Chapter 5: Reverse Engineering.
+/// Chapter 6: Reverse Engineering.
 library;
 
 export 'src/reverse_eng_chapter.dart';

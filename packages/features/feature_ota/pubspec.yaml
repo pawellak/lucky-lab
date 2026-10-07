@@ -1,5 +1,5 @@
 name: feature_ota
-description: "Chapter 3: OTA Firmware Update"
+description: "Chapter 4: OTA Firmware Update"
 publish_to: none
 version: 0.1.0
 resolution: workspace

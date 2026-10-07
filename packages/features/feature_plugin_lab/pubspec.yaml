@@ -1,5 +1,5 @@
 name: feature_plugin_lab
-description: "Chapter 7: Native Flutter Plugin"
+description: "Chapter 2: Native Flutter Plugin"
 publish_to: none
 version: 0.1.0
 resolution: workspace

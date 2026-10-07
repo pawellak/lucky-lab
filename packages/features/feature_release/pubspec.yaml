@@ -1,5 +1,5 @@
 name: feature_release
-description: "Chapter 13: Release & Observability"
+description: "Chapter 8: Release & Observability"
 publish_to: none
 version: 0.1.0
 resolution: workspace

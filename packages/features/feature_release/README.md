@@ -1,4 +1,4 @@
-# Chapter 13 – Release & Observability
+# Chapter 8 – Release & Observability
 
 Ship like a product team: flavors, CI/CD to the stores, crash reporting, monitoring and tests against real hardware.
 

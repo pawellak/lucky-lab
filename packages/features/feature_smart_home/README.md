@@ -1,4 +1,4 @@
-# Chapter 8 – Smart Home & Bluetooth 6.0
+# Chapter 13 – Smart Home & Bluetooth 6.0
 
 Matter and Thread smart-home devices, plus the newest Bluetooth features: Mesh, direction finding, Channel Sounding and LE Audio.
 

@@ -1,4 +1,4 @@
-# Chapter 6 – BLE → MQTT Gateway
+# Chapter 9 – BLE → MQTT Gateway
 
 An ESP32 gateway that collects data from many energy meters over BLE and publishes it over Wi-Fi / MQTT.
 

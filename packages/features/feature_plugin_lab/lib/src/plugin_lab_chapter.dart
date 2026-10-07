@@ -1,7 +1,7 @@
 import 'package:shared/shared.dart';
 
 const pluginLabChapter = ChapterInfo(
-  number: 7,
+  number: 2,
   slug: 'plugin-lab',
   tier: ChapterTier.core,
   title: 'Native Flutter Plugin',
